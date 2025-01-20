@@ -1,0 +1,367 @@
+@font-face 
+{
+    font-family:"Volvo Novum";
+    src: url(/fonts/volvo-novum-medium.woff2);
+}
+@font-face {
+    font-family: "Volvo Novum semi";
+    src: url(/fonts/volvo-novum-semi-light.woff2);
+}
+
+main
+{
+    font-family: "Volvo Novum";
+
+}
+
+nav
+{
+    padding: 12px 24px !important;
+}
+.signup img
+{
+    left: 5px;
+    top: 12px;
+    
+}
+.signup button
+{
+    padding-left: 30px;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+
+}
+.signup button:hover
+{
+    background-color: rgb(221, 221, 221);
+    transition: all 0.2s ease-in-out;
+}
+.navbar-nav li a:hover
+{
+    background-color: rgb(221, 221, 221);
+    border-radius: 3px;
+}
+nav .search
+{
+    padding:3px 5px;
+    border-radius: 20px;
+}
+nav .search:hover
+{
+    background-color: rgb(221, 221, 221);
+    
+}
+.learn
+{
+    padding: 12px 0px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.section1 div div
+{
+    top:64px;    
+}
+.section1 div div div a{
+    padding: 0px 32px;
+    height: 48px;
+    align-content: center;
+    border-radius: 3px;
+    margin-top: 55px;
+    font-weight: 500;
+}
+.section2 h3
+{
+    font-size: 33px;
+    font-weight: 600;  
+}
+.section2 div ul  .nav-link
+{
+    background-color: transparent;
+    color: black;
+    position: relative;
+    font-weight: 500;
+}
+
+.section2 div ul .nav-link.active
+{
+    background-color: transparent;
+    color: black;
+    
+}
+.section2 div ul .nav-link.active::after
+{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+
+}
+.tab-content .tab-pane div .card .card-title
+{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Volvo Novum semi";
+
+}
+.tab-content .tab-pane div .card .card-text
+{
+
+ color: rgba(0, 0, 0, 0.64);
+}
+
+.tab-content .tab-pane div .card
+{
+    padding-top: 5%;
+    background-color: rgba(220, 220, 220, 0.224);
+    transition: all 0.1s ease-in-out;
+
+}
+.tab-content .tab-pane div .card:hover
+{
+    background-color: rgba(160, 160, 160, 0.224);
+    transition: all 0.1s ease-in-out;
+}
+.tab-content .tab-pane div .card img
+{
+    width: 90%;
+    padding-bottom: 24px;
+}
+.hovereffect:hover::after
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    left: 0px;
+    bottom: 0px;
+    
+}
+.section3
+{
+    background-color:rgb(250,250,250) ;
+    padding:96px 0px ;
+}
+.section3 div img
+{
+    margin-bottom:32px ;
+}
+.whyvolvo div p
+{
+  color: rgba(0, 0, 0, 0.64);  
+  font-family: "Volvo Novum semi";
+}
+.learn-more a
+{
+    border: solid 1px rgb(42, 96, 157);
+    color: rgb(42, 96, 157);
+    padding: 12px 32px;
+}
+.learn-more a:hover
+{
+    background-color: rgb(42, 96, 157);
+    color: white;
+}
+.section4
+{
+    padding: 96px 0px;
+}
+
+.electric-title p
+{
+    width: 50%;
+    font-family: "Volvo Novum semi";
+  color: rgba(0, 0, 0, 0.64);  
+
+}
+@media (max-width:1060px)
+{
+    .electric-title p
+    {
+    width: 83%;   
+    }
+}
+
+.card img
+{
+    align-self: flex-end;
+}
+.electric-cars .card
+{
+    background-color: rgb(250, 250, 250);
+}
+.electric-cars .card .card-body div .card-title{
+    font-size: 20px;
+    
+
+}
+.electric-cars .card .card-body div .card-text
+{
+    font-size: 16px;
+    font-family: "Volvo Novum semi";
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.electric-cars .card .card-body div span
+{
+    padding-top: 32px;
+    color:rgb(42, 96, 157) ;
+    position: relative;
+    cursor: pointer;
+}
+.electric-cars .card .card-body div span:hover::after
+{
+    
+    position: absolute;
+    content:"" ;
+    width: 100%;
+    height: 2.5px;
+    background-color:rgb(42, 96, 157) ;
+    left: 0px;
+    bottom: -2.5px;
+}
+.booktest div p
+{
+    position: absolute;
+    left: 8%;
+    bottom: 46%;
+    color: white;
+    font-size:32px;
+    line-height: 40px;
+    margin-bottom: 3%;
+    
+}
+@media (max-width:1050px)
+{
+    .booktest div a
+    {
+        bottom: 2% !important;
+    }
+    
+
+}
+@media (max-width:578px)
+{
+    .booktest div p
+    {       
+        top: 5% !important;
+        font-size: 30px;
+    }    
+}
+.booktest div a
+{
+    padding: 12px 32px;
+    position: absolute;
+    left: 8%;
+    bottom: 38%;
+}
+.quicklinks div div
+{
+    border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+}
+.quicklinks div div p
+{
+    color: rgb(42, 96, 157);
+    font-family: "Volvo Novum semi";
+    cursor: pointer;
+}
+.quicklinks div div p:hover
+{
+    color: black;
+}
+
+.quicklinks div .Test,.Buy
+{
+    border-top: solid 1px rgba(0, 0, 0, 0.12);
+}
+.section5>p
+{
+    font-family: "Volvo Novum semi";
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.64);
+    margin-bottom: 100px;
+}
+footer
+{
+    padding: 32px 0px;
+    background-color: rgb(247, 247, 247)!important;
+}
+footer .back
+{
+    font-size: 16px;
+    font-family: "Volvo Novum";
+    padding-bottom: 50px;
+}
+footer .links div h3
+{
+    font-size: 12px;
+    margin-bottom: 16px;
+    font-family: "Volvo Novum";
+    color: rgba(0, 0, 0, 0.64);
+}
+footer .links
+{
+    column-gap: 64px;
+}
+footer .links div ul li p
+{
+    font-size: 16px;
+
+}
+footer p
+{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-family: "Volvo Novum";
+    
+}
+footer p:hover::after
+{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2.5px;
+    background-color: black;
+    left: 0px;
+    bottom: -2px;
+}
+.accordion-header button,.accordion-body,.accordion-item
+{
+    background-color: rgb(247, 247, 247)!important;
+
+}
+.accordion-button
+{
+    font-family: "Volvo Novum";
+    font-size: 20px!important;
+    font-weight: 500;
+}
+.icons
+{
+    column-gap: 40px;
+}
+.icons div svg
+{
+    width: 30px!important;
+}
+.legal div
+{
+    column-gap: 16px;
+}
+.legal p::after
+{
+    height: 1.5px!important;
+    background-color:rgba(0, 0, 0, 0.64) !important;
+}
+.legal p,section .copyright
+{
+    color:rgba(0, 0, 0, 0.64) ;
+    font-family: "Volvo Novum semi";
+    font-size: 12px;
+}
