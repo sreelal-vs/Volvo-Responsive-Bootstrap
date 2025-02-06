@@ -1,11 +1,11 @@
 @font-face 
 {
     font-family:"Volvo Novum";
-    src: url(/fonts/volvo-novum-medium.woff2);
+    src: url(../fonts/volvo-novum-medium.woff2) format('woff2');
 }
 @font-face {
     font-family: "Volvo Novum semi";
-    src: url(/fonts/volvo-novum-semi-light.woff2);
+    src: url(../fonts/volvo-novum-semi-light.woff2) format('woff2');
 }
 
 main
